@@ -13,7 +13,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     let placesNames = ["Kikchak Шаверма", "Шаурма у Бахи", "Шаурма Маркет", "KFC", "Кальянная 'Практика'", "ПМЖ антикафе", "Дом Бородача антикафе", "McDonald's", "ВДНХ", "Дизайн-завод 'Flacon'", "Площадь Тукая", "Центральный Детский Магазин", "Горбушкин Двор", "МГУ", "Красная Площадь"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
