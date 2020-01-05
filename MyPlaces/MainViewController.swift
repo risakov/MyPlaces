@@ -14,7 +14,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+// Comment
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return placesNames.count
     }
